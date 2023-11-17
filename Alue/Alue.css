@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Montserrat';
+}
+body{
+    background-color: #131313;
+    color: #fff;
+}
+/* NavBar */
+.navbar-link{
+    color: #fff;
+}
+/* Featured */
+.featured-wrapper{
+    padding: 5px 20px;
+
+    margin: 50px 0;
+}
+.featured-date{
+    font-size: 16px;
+    font-weight: 500;
+}
+.featured-title{
+    font-size: 4.6rem;
+    font-weight: 700;
+
+    line-height: 1.15em;
+}
+.featured-demo{
+    background-image: url(../Alue/AlueImage/columndemopost.jpg);
+    background-size: cover;
+
+    border-radius: 0.9rem;
+
+    padding: 295px 15px 15px 15px;
+    margin: 10px;
+
+    transition: 0.5s ease;
+}
+.featured-demo:hover{
+    transform: scale(1.05);
+}
+.featured-winter{
+    background-image: url(../Alue/AlueImage/winterolympics.jpg);
+    background-size: cover;
+
+    border-radius: 0.9rem;
+
+    padding: 295px 15px 15px 15px;
+    margin: 10px;
+
+    transition: 0.5s ease;
+}
+.featured-winter:hover{
+    transform: scale(1.05);
+}
+
+/* Posts */
+.posts-wrapper{
+    padding: 5px 20px;
+}
+.posts-image{
+    border-radius: 10px;
+
+    transition: 0.5s ease;
+}
+.posts-image:hover{
+    transform: scale(1.05);
+}
+.posts-date{
+    font-size: 16px;
+    font-weight: 500;
+
+    margin: 10px 0;
+}
+.posts-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    line-height: 1.15em;
+}
+.posts-card{
+    margin-bottom: 20px;
+}
+
+/* Tags */
+.tags-wrapper{
+    padding: 5px 20px;
+
+    margin: 50px 0;
+}
+.tags-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tags-text{
+    text-transform: uppercase;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Latest posts */
+.latest{
+    padding: 5px 20px;
+
+    margin: 50px 0;
+}
+.latest-content{
+    margin: 10px 0;
+}
+.latest-sidebar-element{
+    margin: 10px 0;
+}
+.latest-image{
+    border-radius: 25px;
+}
+.latest-element{
+    margin-bottom: 20px;
+}
+.latest-sidebar{
+    border-style: none none none solid;
+    border-width: 1px;
+    border-color: #ddd;
+}
+.latest-form{
+    background-image: url(./AlueImage/onbg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+.latest-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    border-radius: 15px;
+
+    padding: 25px 50px;
+}
+.latest-form-wrapper{
+    background-color: #000;
+
+    border-radius: 25px;
+}
+
+.latest-authors{
+    margin: 20px 0;
+}
+.latest-authors-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: #ddd;
+}
+.latest-authors-element{
+    margin: 20px 0;
+    padding: 20px 50px;
+
+    border: 1px solid #fff;
+    border-radius: 0.9rem;
+}
+.latest-authors-text{
+    margin-top: 20px;
+}
+.latest-authors-image{
+    border-radius: 50%;
+
+    margin-right: 20px;
+}
+
+/* Footer */
+.footer{
+    padding: 20px 50px;
+
+    margin: 20px 0;
+}
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+
+    padding-bottom: 20px;
+}
+.footer-header-text{
+    font-size: 1.3em;
+}
+.footer-body{
+    padding: 20px 0;
+
+    border-style: solid none solid none;
+    border-width: 1px;
+    border-color: #fff;
+}
+.footer-list{
+    border-spacing: 0px 5px;
+}
+.footer-footer{
+    padding: 20px 0;
+}

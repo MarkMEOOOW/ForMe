@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: #121519;
+    color: #fff;
+}
+
+/* New */
+.new{
+    padding: 50px 0;
+}
+.new-title{
+    font-size: 3.15rem;
+    font-weight: 600;
+}
+.new-uptitle{
+    text-transform: uppercase;
+    color: #b82e38;
+
+    font-weight: 500;
+}
+
+.arrivals{
+    padding: 50px 0;
+}
+.arrivals-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.arrivals-block{
+    overflow: hidden;
+}
+.arrivals-block img{
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+.arrivals-block img:hover{
+    transform: scale(1.1);
+}
+.arrivals-content{
+    margin: 5px 0;
+}
+.arrivals-cost{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.arrivals-cost span{
+    color: #e63946;
+}
+
+/* Upcoming */
+.upcoming-content{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+
+    margin: 5px 0;
+}
+
+/* Summer */
+.summer{
+    margin: 50px 0;
+    padding: 180px 50px;
+
+    background-image: url(../ShopApp/ShopAppImage/summer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.summer-col{
+    background-color: #fff;
+    color: #000;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    padding: 50px;
+}
+.cost span{
+    color: #e63946;
+}
+.summer-button{
+    margin: 20px 0;
+
+    padding: 10px;
+
+    background-color: #e63946;
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+}
+
+/* Best-seller */
+.best-seller-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.best-seller-element{
+    border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.best-seller-cost{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.best-seller-col{
+    margin: 20px 0;
+}
+.best-seller-cost span{
+    color: #e63946;
+}
+
+/* Posts */
+.posts{
+    padding: 50px 0;
+}
+.posts-header{
+    text-align: center;
+}
+.posts-element{
+    margin: 10px 0;
+
+    position: relative;
+}
+.posts-block{
+    background-color: #000;
+    color: #fff;
+
+    padding: 20px;
+
+    position: absolute;
+    top: 90%;
+    left: 20px;
+    right: 20px;
+}
